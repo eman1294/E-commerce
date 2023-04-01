@@ -1,0 +1,30 @@
+header {
+    background-image: url(../../../public/image/header.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 180px;
+}
+header .head_title {
+    width: 100%;
+    text-align: right;
+    color: darkgoldenrod;
+}
+.head_title h1{
+    padding: 10px;
+    animation: beat infinite 3s alternate;
+}
+.shop_button{
+    text-align: right;
+    padding-right: 60px;   
+}
+.shop_button a{
+    width: 20%;
+}
+@keyframes beat {
+   0%{transform: translatey(0px);} 
+   50%{transform: translatey(10px);} 
+   100%{transform: translatey(0px);} 
+}

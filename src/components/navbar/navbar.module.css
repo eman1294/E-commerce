@@ -1,0 +1,15 @@
+.buy{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.buy:hover a{
+    color: goldenrod;
+}
+.buy a{
+    color: black;
+}
+.nav_link:hover{
+    color: goldenrod !important;
+    cursor: pointer;
+}
